@@ -99,8 +99,10 @@ const jobOpenings = [
 ];
   return (
     <div className="parent">
-      {jobOpenings.map(function(e){
-        return <Card logo = {e.brandLogo} company = {e.companyName} date = {e.datePosted} location = {e.location} amount = {e.pay} tagOne = {e.tag1} tagTwo = {e.tag2} />
+      {jobOpenings.map(function(e,index){
+        return <div key = {index}>
+          <Card logo = {e.brandLogo} company = {e.companyName} date = {e.datePosted} location = {e.location} amount = {e.pay} tagOne = {e.tag1} tagTwo = {e.tag2} />
+        </div>
       })}
     </div>
   );
