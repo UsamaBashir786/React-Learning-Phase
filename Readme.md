@@ -1,8 +1,11 @@
-# React Learning
-- 01-folder
-- 02-components
-- 03-props
-- 04-cards-project
-- 05-css
-- 06-tailwind-css
-- 07-ui-project
+# ⚛️ React Learning Journey
+
+| Step | Topic |
+|-----|------|
+| 📁 | 01 - Folder Structure |
+| 🧩 | 02 - Components |
+| 🔗 | 03 - Props |
+| 🃏 | 04 - Cards Project |
+| 🎨 | 05 - CSS |
+| 💨 | 06 - Tailwind CSS |
+| 🚀 | 07 - UI Project |
